@@ -1,3 +1,10 @@
+package factories;
+
+import factories.AbstractFactory;
+import shapes.RoundedRectangle;
+import shapes.RoundedSquare;
+import shapes.Shape;
+
 public class RoundedShapeFactory extends AbstractFactory {
     @Override
     public Shape getShape(String shapeType) {

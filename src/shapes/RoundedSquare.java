@@ -1,3 +1,7 @@
+package shapes;
+
+import shapes.Shape;
+
 public class RoundedSquare implements Shape {
     @Override
     public void draw() {
