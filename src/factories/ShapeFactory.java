@@ -5,7 +5,7 @@ import shapes.Rectangle;
 import shapes.Shape;
 import shapes.Square;
 
-public class ShapeShapeFactory extends AbstractShapeFactory {
+public class ShapeFactory extends AbstractShapeFactory {
     @Override
     public Shape getShape(ShapesEnum shapeType) {
         switch (shapeType) {
