@@ -1,12 +1,11 @@
 package factories;
 
 import enums.ShapesEnum;
-import factories.AbstractFactory;
 import shapes.Rectangle;
 import shapes.Shape;
 import shapes.Square;
 
-public class ShapeFactory extends AbstractFactory {
+public class ShapeShapeFactory extends AbstractShapeFactory {
     @Override
     public Shape getShape(ShapesEnum shapeType) {
         switch (shapeType) {
